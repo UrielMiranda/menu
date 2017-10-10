@@ -1,0 +1,46 @@
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+.card-panel{
+  display: inline-block;
+}
+.orange-text-uneve{
+  color:#FFBB5C;
+  cursor: pointer;
+}
+.orange-text-uneve:hover,.dropdown-content li>a, .dropdown-content li>span:hover{
+  color:#ff9500
+}
+.logo{
+  margin:20px 0px;
+}
+.form-input, .logo, .submit{
+  display: flex;
+  justify-content: center;
+ 
+}
+.card{
+  padding: 30px;
+  width: 535px;
+}
+.uneve-color{
+  background-color: #FFBB5C;
+}
+.uneve-color:hover{
+  background-color: #ff9500;
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly])+label, .dropdown-content li>a, .dropdown-content li>span{
+  color:#FFBB5C
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly]){
+  border-bottom-color: #FFBB5C;
+  box-shadow: 0 1px 0 0 #FFBB5C;
+}
+span a{
+  color:#FFBB5C
+}
